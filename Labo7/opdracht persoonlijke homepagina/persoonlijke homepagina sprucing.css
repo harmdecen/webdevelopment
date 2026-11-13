@@ -1,0 +1,189 @@
+
+/* Algemene opmaak van de volledige pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+/* Opmaak van de hoofdtitel */
+h1 {
+    color: white;
+    background-color: #34495e;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* Opmaak van de titels van de verschillende onderdelen */
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 5px;
+}
+
+/* Opmaak van de titels bij hobby's en interesses */
+h3 {
+    color: #456782;
+    margin-bottom: 8px;
+}
+
+/* Opmaak van de verschillende secties */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #dddddd;
+}
+
+/* Opmaak van de artikels */
+article {
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 3px solid #456782;
+}
+
+/* Opmaak van paragrafen */
+p {
+    margin: 10px 0;
+}
+
+/* Opmaak van de afbeeldingen */
+figure {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+}
+
+/* Opmaak van de hyperlinks */
+a {
+    color: #286090;
+    text-decoration: none;
+}
+
+/* Verandering van de link wanneer je erover beweegt */
+a:hover {
+    color: #1a3c5a;
+    text-decoration: underline;
+}
+
+/* Opmaak van de tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Opmaak van de kolomtitels */
+th {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Opmaak van de gewone tabelcellen */
+td {
+    padding: 10px;
+    border: 1px solid #cccccc;
+}
+
+/* Elke even rij krijgt een lichtgrijze achtergrond */
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+/* De achtergrond verandert wanneer je over een rij beweegt */
+tr:hover {
+    background-color: #dddddd;
+}
+
+/* Opmaak van de footer onderaan de pagina */
+footer {
+    text-align: center;
+    color: #666666;
+    margin-top: 25px;
+    padding: 10px;
+    border-top: 1px solid #cccccc;
+}
+
+/* Kleine aanpassing voor kleinere schermen */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    section {
+        padding: 12px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+}
+
+/* Algemene tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border: 2px solid #563d7c;
+}
+
+/* Hoofding van de tabel */
+th {
+    background-color: #563d7c;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #7961a5;
+    font-size: 15px;
+}
+
+/* Gewone cellen */
+td {
+    padding: 12px;
+    border: 1px solid #d6c8e8;
+    color: #333333;
+}
+
+/* Afwisselende kleuren */
+tbody tr:nth-child(odd) {
+    background-color: #f3eafa;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0f7f4;
+}
+
+/* Hover-effect */
+tbody tr:hover {
+    background-color: #ffdfba;
+}
+
+/* Eerste kolom extra opvallend door the first child */
+tbody td:first-child {
+    font-weight: bold;
+    color: #563d7c;
+}
+/* Onbekende gegevens krijgen een rode achtergrond */
+.onbekend {
+    background-color: red;
+}
+/* Rode achtergrond ook voor onbekende cellen in even rijen */
+tr.alt td.onbekend {
+    background-color: red;
+}

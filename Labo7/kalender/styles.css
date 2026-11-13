@@ -1,0 +1,87 @@
+
+/* De volledige kalender */
+.kalender {
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Maand en jaartal */
+.kalender .maand {
+    background-color: rgb(170, 170, 200);
+    color: black;
+    font-size: 22px;
+    padding: 15px;
+}
+
+/* Dagen van de week */
+.kalender .dagen th {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+    padding: 12px;
+}
+
+/* Alle kalendercellen */
+.kalender td {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    height: 35px;
+}
+
+/* Weekends zonder speciale weekend-class */
+.kalender tbody td:first-child,
+.kalender tbody td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+/* Dagen uit vorige of volgende maand */
+.kalender .vorige,
+.kalender .volgende {
+    color: #aaaaaa;
+}
+
+/* Feestdagen */
+.kalender .feestdag {
+    background-color: rgb(250, 120, 120);
+    color: black;
+    font-weight: bold;
+}
+
+/* Nieuwjaar */
+.kalender .volgende.feestdag {
+    background-color: rgb(250, 120, 120);
+    color: black;
+}
+/* Vorige maand krijgt een grijze achtergrond */
+table.kalender tbody td.vorige {
+    background-color: #e0e0e0;
+    color: #999999;
+}
+
+/* Vorige maand: grijze achtergrond */
+table.kalender tbody td.vorige {
+    background-color: #e0e0e0;
+    color: #999999;
+}
+
+/* Volgende maand: grijze achtergrond */
+table.kalender tbody td.volgende {
+    background-color: #e0e0e0;
+    color: #999999;
+}
+
+/* Speciale datums: witte achtergrond, blauwe tekst en onderstreept */
+table.kalender tbody td.speciaal {
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Feestdagen: rode achtergrond */
+table.kalender tbody td.feestdag {
+    background-color: rgb(250, 120, 120);
+    color: blue;
+    text-decoration: underline;
+}

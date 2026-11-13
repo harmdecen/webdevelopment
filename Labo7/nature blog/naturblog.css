@@ -1,0 +1,81 @@
+/* Lettertype voor de hele pagina */
+* {
+    font-family: verdana, sans-serif;
+}
+
+/* Haalt de standaard witte rand rond de pagina weg */
+body {
+    margin: 0;
+}
+
+/* De hele pagina: 75% breed, gecentreerd, minstens even hoog als het scherm */
+section {
+    min-height: 100vh;      /* footer zakt naar onder */
+    display: flex;
+    flex-direction: column;
+    width: 95%;             /* wit links en rechts, pas aan indien nodig */
+    margin: 0 auto;         /* centreert de pagina */
+}
+
+/* Hoofdheader met de achtergrondafbeelding (niet de header in de artikels) */
+section > header {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    height: 100px;          /* hoogte van de afbeelding, pas aan indien nodig */
+}
+
+/* Titel "Nature Blog" linksboven */
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    line-height: 1;
+    color: #fff;
+    display: block;
+    width: fit-content;
+}
+
+/* Donkere navigatiebalk */
+nav {
+    background-color: #444;
+    color: #ccc;            /* kleur van de | tekens */
+    padding: 4px 3px;
+    margin: 0;
+    font-size: 13px;
+}
+
+/* Groene, vetgedrukte links zonder onderlijning */
+nav a {
+    color: #4dff6a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Het gedeelte met de artikels groeit mee en duwt de footer naar onder */
+/* Het artikelgedeelte vult de ruimte tot de footer, de artikels rekken mee */
+section > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grijze vakken met een klein gat ertussen */
+article {
+    background-color: #e8e8e8;
+    padding: 1px 4px;
+    margin: 4px 2px;
+    flex: 1;                /* elk artikel groeit mee in de hoogte */
+}
+
+
+
+/* Onderlijnde, donkergrijze titels van de artikels */
+article h2 {
+    text-decoration: underline;
+    color: #444;
+}
+
+/* Kleine tekst voor de artikels, de "Meer ..." links en de footer */
+p, footer {
+    font-size: 11px;
+}
