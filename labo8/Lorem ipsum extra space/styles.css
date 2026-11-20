@@ -1,0 +1,23 @@
+body {
+    margin: 0; /* zodat de ruimte aan de rand van de pagina precies 10px is */
+}
+
+.kolommen {
+    display: flex;
+}
+
+/* De lege ruimte rond de kolom is padding van een omhullend element:
+   een margin zou de kolom breder dan 50% maken. */
+.kolom {
+    display: flex; /* zodat de section de volledige hoogte van de kolom inneemt */
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+}

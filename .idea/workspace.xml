@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba21c832-fea7-400f-bc94-4498470e8eb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Labo7/images/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/kalender/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/kalender/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/nature blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/nature blog/naturblog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/hobbys.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/images/imaginedragons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/images/minecraft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/images/pool.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/images/rummikub.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/interesses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labo7/opdracht persoonlijke homepagina/persoonlijke homepagina sprucing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo8/Lorem Ipsum opdracht/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo8/Lorem Ipsum opdracht/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo8/Lorem ipsum extra space/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo8/Lorem ipsum extra space/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labo8/cocktail bar/begin_cocktail_bar/lounge.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,61 +34,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000004291757569" />
-      <entry key="MS500" value="1.0865689645364143" />
-      <entry key="S2" value="1.790077039397933" />
-      <entry key="S5" value="2.586615414450113" />
-      <entry key="S10" value="3.1337960092258763" />
-      <entry key="S30" value="3.664020486479804" />
-      <entry key="S60" value="3.870875536944215" />
-      <entry key="M2" value="4.64288516013978" />
-      <entry key="M5" value="9.749933957519001" />
-      <entry key="M10" value="19.71362735417502" />
-      <entry key="M15" value="33.047599041646365" />
-      <entry key="M30" value="88.40431196271534" />
-      <entry key="H1" value="217.1412591219674" />
-      <entry key="H2" value="418.35013809319884" />
-      <entry key="H4" value="624.709749644" />
-      <entry key="D1" value="1109.1247226500243" />
-      <entry key="W1" value="1389.3014750167356" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000010290124552" />
+      <entry key="S5" value="1.0226889616503212" />
+      <entry key="S10" value="1.3523824323103688" />
+      <entry key="S30" value="4.295010529965351" />
+      <entry key="S60" value="8.589975531158892" />
+      <entry key="M2" value="17.09959899507061" />
+      <entry key="M5" value="40.518764537517356" />
+      <entry key="M10" value="65.30968433162086" />
+      <entry key="M15" value="82.597560299558" />
+      <entry key="M30" value="130.74594944846254" />
+      <entry key="H1" value="243.7965622894067" />
+      <entry key="H2" value="446.4087331204374" />
+      <entry key="H4" value="676.963829092579" />
+      <entry key="D1" value="1216.9926916526938" />
+      <entry key="W1" value="1516.9770861915838" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.9162839374572235E-246" />
-      <entry key="S2" value="3.7206169892077483E-62" />
-      <entry key="S5" value="2.6806862610522035E-25" />
-      <entry key="S10" value="5.177974648581519E-13" />
-      <entry key="S30" value="8.53342666539415E-5" />
-      <entry key="S60" value="0.012082258652689424" />
-      <entry key="M2" value="0.17334582492124712" />
-      <entry key="M5" value="0.9496282480484185" />
-      <entry key="M10" value="1.911118912011973" />
-      <entry key="M15" value="2.896243135455399" />
-      <entry key="M30" value="6.909335995031459" />
-      <entry key="H1" value="15.907919649385974" />
-      <entry key="H2" value="28.76330356636578" />
-      <entry key="H4" value="41.01162208229465" />
-      <entry key="D1" value="58.6874904524796" />
-      <entry key="W1" value="63.956244562221755" />
+      <entry key="MS500" value="8.377589600084955E-76" />
+      <entry key="S2" value="1.7012955668744709E-19" />
+      <entry key="S5" value="3.106790068274109E-8" />
+      <entry key="S10" value="1.7626107931187872E-4" />
+      <entry key="S30" value="0.057025082072465615" />
+      <entry key="S60" value="0.28853296528031525" />
+      <entry key="M2" value="0.9197565625768519" />
+      <entry key="M5" value="2.523375111877713" />
+      <entry key="M10" value="4.0836838578826145" />
+      <entry key="M15" value="5.270694820726742" />
+      <entry key="M30" value="8.84121455868482" />
+      <entry key="H1" value="17.021722974310446" />
+      <entry key="H2" value="30.46883441920028" />
+      <entry key="H4" value="44.680080909616294" />
+      <entry key="D1" value="66.38211173672146" />
+      <entry key="W1" value="72.75218380001847" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.905339707041845E-4" />
-      <entry key="MS500" value="0.23936305393001744" />
-      <entry key="S2" value="1.14334203658846" />
-      <entry key="S5" value="2.129332771007321" />
-      <entry key="S10" value="2.829450224157756" />
-      <entry key="S30" value="3.5363281565519427" />
-      <entry key="S60" value="3.814235125862976" />
-      <entry key="M2" value="4.776595301407288" />
-      <entry key="M5" value="10.675040513806277" />
-      <entry key="M10" value="21.604410960400454" />
-      <entry key="M15" value="35.92109171352666" />
-      <entry key="M30" value="95.2806693069956" />
-      <entry key="H1" value="233.0102001898581" />
-      <entry key="H2" value="447.07917253473113" />
-      <entry key="H4" value="665.697490796547" />
-      <entry key="D1" value="1167.8062133506457" />
-      <entry key="W1" value="1453.256727154543" />
+      <entry key="MS100" value="2.562784872126629E-4" />
+      <entry key="MS500" value="0.19131209622783343" />
+      <entry key="S2" value="0.6613643297420414" />
+      <entry key="S5" value="0.8676286682774782" />
+      <entry key="S10" value="1.2505256925265" />
+      <entry key="S30" value="4.249758477463412" />
+      <entry key="S60" value="8.777485888090652" />
+      <entry key="M2" value="17.920745589970604" />
+      <entry key="M5" value="42.94647567918314" />
+      <entry key="M10" value="69.31444107332973" />
+      <entry key="M15" value="87.80139094181668" />
+      <entry key="M30" value="139.53439755413802" />
+      <entry key="H1" value="260.77125686574846" />
+      <entry key="H2" value="476.8382302617994" />
+      <entry key="H4" value="721.6162301521076" />
+      <entry key="D1" value="1283.3677813029458" />
+      <entry key="W1" value="1589.728115542924" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,32 +100,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/harmd/Documents/GitHub/webdevelopment/Labo7/opdracht persoonlijke homepagina",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/harmd/Documents/GitHub/webdevelopment/labo1/src/main.js",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/harmd/Documents/GitHub/webdevelopment/Labo7/opdracht persoonlijke homepagina&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/harmd/Documents/GitHub/webdevelopment/labo1/src/main.js&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\Labo7\opdracht persoonlijke homepagina" />
@@ -143,11 +135,11 @@
       <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\labo3\opdracht 2,11" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\labo8\cocktail bar" />
+      <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\labo8\Lorem Ipsum opdracht" />
       <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\Labo7\nature blog" />
       <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\Labo7\images" />
       <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\Labo7" />
-      <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\" />
-      <recent name="C:\Users\harmd\Documents\GitHub\webdevelopment\Labo6\opdracht4\afbeeldingen" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -179,6 +171,7 @@
       <workItem from="1793365576578" duration="5266000" />
       <workItem from="1793709115753" duration="696000" />
       <workItem from="1794575055592" duration="5708000" />
+      <workItem from="1795180301153" duration="3402000" />
     </task>
     <task id="LOCAL-00001" summary="ea">
       <option name="closed" value="true" />

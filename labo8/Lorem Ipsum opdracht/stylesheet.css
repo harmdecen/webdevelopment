@@ -1,0 +1,15 @@
+
+    /* Een section is standaard een blok-element en staat dus onder het vorige.
+       float: left laat de sections naast elkaar plaatsen als er genoeg ruimte is. */
+    .kolommen {
+        display: flex;
+    }
+
+    section {
+        width: 50%;
+        border: 1px solid #000;
+        padding: 10px;
+
+        /* Border en padding zitten BINNEN de 50% in plaats van er bovenop. */
+        box-sizing: border-box;
+    }
