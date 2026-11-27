@@ -1,0 +1,178 @@
+/* Algemene layout en typografie */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 95%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Top-gebied */
+.top-banner {
+    position: relative;
+    height: 200px;
+    background-image: url("images/bgsky3.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #00008b;
+    overflow: hidden;
+}
+
+.top-title {
+    position: relative;
+    z-index: 1;
+    margin: 24px 0 10px;
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.top-subtitle {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-size: 240%;
+    font-weight: bold;
+}
+
+.plane-overlay {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+    z-index: 2;
+}
+
+/* Middengedeelte: hoofdgebied (75%) + nieuwsgebied (25%) */
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Hoofdgebied (75%) */
+.main-content {
+    width: 75%;
+    background-color: #ffffff;
+}
+
+/* Introductiegebied + logo */
+.intro-section {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.brand-logo {
+    margin: 20px 20px 0 20px;
+    flex-shrink: 0;
+}
+
+.intro-text {
+    margin: 20px 30px 20px 0;
+    text-align: justify;
+    line-height: 1.45;
+}
+
+.highlight-blue {
+    color: #0000ff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Galerijgebied: gecentreerd in het main-gedeelte */
+.gallery-section {
+    display: grid;
+    grid-template-columns: repeat(3, 202px);
+    width: fit-content;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto 20px auto;
+    background-color: #999999;
+}
+
+.photo-frame {
+    margin: 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px dashed #999999;
+    width: 202px;
+}
+
+.photo-frame img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Nieuwsgebied (25%) */
+.news-sidebar {
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+}
+
+.news-block h3 {
+    margin: 0 0 10px;
+    padding: 4px 10px;
+    background-color: #0000ff;
+    color: #ffffff;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.news-block p {
+    margin: 0 10px 16px;
+    color: #666666;
+    font-size: 90%;
+    line-height: 1.4;
+}
+
+/* Onderkant en copyright */
+.bottom-footer {
+    margin-top: 10px;
+}
+
+.footer-columns {
+    display: flex;
+    background-color: #666666;
+    color: #ffffff;
+    line-height: 2em;
+    padding: 16px 0;
+}
+
+.footer-block {
+    margin-left: 120px;
+}
+
+.footer-block ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.footer-block a {
+    color: #ffffff;
+}
+
+.footer-block a:hover {
+    color: #ff0000;
+}
+
+.copyright-bar {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.copyright-bar p {
+    margin: 0;
+}
